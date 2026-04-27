@@ -53,8 +53,8 @@ AI Skill / Prompt / Agent
 从公开材料中提取 **心智模型、决策启发式和认知操作系统** 的项目。
 
 - **[alchaincyf/nuwa-skill（女娲）](https://github.com/alchaincyf/nuwa-skill)** - 蒸馏任何人的思维方式。五层认知提取：表达 DNA → 心智模型 → 决策启发式 → 反模式 → 诚实边界。`认知框架` `自动调研` `中英文` `MIT`
-  - 蒸馏对象：13+ 位人物（乔布斯、马斯克、芒格、费曼、Naval、张一鸣、张雪峰、Paul Graham、Karpathy、Ilya Sutskever、MrBeast、特朗普、塔勒布等）
-  - 亮点：当前最系统化的蒸馏方法论 — 六路并行调研 + 三重验证 + darwin-skill 自动进化。人物蒸馏的黄金标准。
+  - 蒸馏对象：13+ 位人物 — 每位均有独立仓库（见下方列表）
+  - 亮点：当前最系统化的蒸馏方法论 — 六路并行调研 + 三重验证 + [darwin-skill](https://github.com/alchaincyf/darwin-skill) 自动进化。人物蒸馏的黄金标准。
   - 作者：花叔 Huashu（独立开发者，小猫补光灯 AppStore 付费榜 Top1）
   - **方法论详解**：
     1. **怎么说话** — 表达 DNA（语气、节奏、用词偏好）
@@ -62,6 +62,21 @@ AI Skill / Prompt / Agent
     3. **怎么判断** — 决策启发式
     4. **什么不做** — 反模式、价值观底线
     5. **知道局限** — 诚实边界
+  - **独立人物仓库**：
+    - [steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) — 乔布斯 · Steve Jobs
+    - [elon-musk-skill](https://github.com/alchaincyf/elon-musk-skill) — 马斯克 · Elon Musk
+    - [munger-skill](https://github.com/alchaincyf/munger-skill) — 芒格 · Charlie Munger
+    - [feynman-skill](https://github.com/alchaincyf/feynman-skill) — 费曼 · Richard Feynman
+    - [naval-skill](https://github.com/alchaincyf/naval-skill) — 纳瓦尔 · Naval Ravikant
+    - [zhang-yiming-skill](https://github.com/alchaincyf/zhang-yiming-skill) — 张一鸣 · Zhang Yiming
+    - [zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) — 张雪峰 · Zhang Xuefeng ⭐ 6.5k
+    - [paul-graham-skill](https://github.com/alchaincyf/paul-graham-skill) — Paul Graham
+    - [karpathy-skill](https://github.com/alchaincyf/karpathy-skill) — Andrej Karpathy
+    - [ilya-sutskever-skill](https://github.com/alchaincyf/ilya-sutskever-skill) — Ilya Sutskever
+    - [mrbeast-skill](https://github.com/alchaincyf/mrbeast-skill) — MrBeast
+    - [trump-skill](https://github.com/alchaincyf/trump-skill) — 特朗普 · Donald Trump
+    - [taleb-skill](https://github.com/alchaincyf/taleb-skill) — 塔勒布 · Nassim Taleb
+    - [x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill) — X导师（6 位 X 创作者方法论）
 
 - **[alchaincyf/zhang-yiming-skill（张一鸣）](https://github.com/alchaincyf/zhang-yiming-skill)** - 由 nuwa-skill 自动生成的张一鸣蒸馏。基于 32 个访谈片段、12 个重大决策案例深度调研，1380 行原始调研数据。`认知框架` `中文` `MIT`
   - 蒸馏对象：张一鸣（字节跳动创始人）
@@ -142,9 +157,9 @@ AI Skill / Prompt / Agent
 
 ## 🎓 教育者蒸馏
 
-- **[alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)**（张雪峰人格） - 中国最知名的高考志愿填报导师，由 nuwa-skill 框架蒸馏。`认知框架` `中文` `MIT`
+- **[alchaincyf/zhangxuefeng-skill（张雪峰）](https://github.com/alchaincyf/zhangxuefeng-skill)** - 中国最知名的高考志愿填报导师。⭐ 6.5k `认知框架` `中文` `MIT`
   - 蒸馏对象：张雪峰
-  - 亮点：ROI 教育观 + 阶层流动现实主义。毫不留情的职业建议。
+  - 亮点：ROI 教育观 + 阶层流动现实主义。毫不留情的职业建议。由 [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) 生成。
   - **效果示例**：
     > 用户：家里条件一般，孩子想学金融，去不了顶尖学校，该不该报？
     >
@@ -164,8 +179,14 @@ AI Skill / Prompt / Agent
     > 芒格：先逆向思考——什么会让你的创业失败？
     > 稻盛和夫：动机至善，私心了无——这是唯一的检验标准。
 
-- **[alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)**（多位思想家人格） - 费曼、Naval、芒格、塔勒布、Paul Graham、Karpathy、Ilya Sutskever 等。`认知框架` `中英文` `MIT`
-  - 蒸馏对象：费曼、Naval、芒格、塔勒布、Paul Graham、Karpathy、Ilya Sutskever
+- **女娲思想家人格系列** — 每位均由 [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) 蒸馏为独立仓库。`认知框架` `中英文` `MIT`
+  - [feynman-skill](https://github.com/alchaincyf/feynman-skill) — 费曼 · Richard Feynman
+  - [naval-skill](https://github.com/alchaincyf/naval-skill) — 纳瓦尔 · Naval Ravikant
+  - [munger-skill](https://github.com/alchaincyf/munger-skill) — 芒格 · Charlie Munger
+  - [taleb-skill](https://github.com/alchaincyf/taleb-skill) — 塔勒布 · Nassim Taleb
+  - [paul-graham-skill](https://github.com/alchaincyf/paul-graham-skill) — Paul Graham
+  - [karpathy-skill](https://github.com/alchaincyf/karpathy-skill) — Andrej Karpathy
+  - [ilya-sutskever-skill](https://github.com/alchaincyf/ilya-sutskever-skill) — Ilya Sutskever
   - 亮点：每个人格作为独立可安装的 Skill 仓库。三重验证确保真实性。
 
 ---
