@@ -42,6 +42,7 @@ AI Skill / Prompt / Agent
 - [📚 思想家蒸馏](#-思想家蒸馏)
 - [🎭 其他人物蒸馏](#-其他人物蒸馏)
 - [📋 索引合集](#-索引合集)
+- [📖 实战案例](#-实战案例)
 - [📊 方法论对比](#-方法论对比)
 - [🛠 工具与资源](#-工具与资源)
 - [🤝 贡献指南](#-贡献指南)
@@ -213,6 +214,16 @@ AI Skill / Prompt / Agent
 | [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills) | — | 同事/老板/前任/自己/永生/女娲索引 |
 | [xixu-me/awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | — | 围绕人物、关系、纪念性场景与方法论视角的 Agent Skills 收录 |
 | [kou35/Awesome-social-skill](https://github.com/kou35/Awesome-social-skill) | — | 人物与关系类 AI Skill 集合 |
+
+---
+
+## 📖 实战案例
+
+完整的蒸馏过程复盘 — 包括踩坑、教训和原始数据。
+
+- **[雷军思维蒸馏：一次完整的实战复盘](case-studies/leijun-distillation.md)** — 从小米创始人雷军 ~950KB 的演讲、专访和著作中蒸馏认知操作系统的全过程。涵盖 10 轮搜索、砍掉 64% 噪音的质检清理、6 批次提炼产出 57 个结构化条目，以及发现 3 个静态蒸馏方法遗漏的「矛盾/演化模式」。`进行中` `中文`
+
+> 📝 有蒸馏案例想分享？[提交 PR](CONTRIBUTING.md)！
 
 ---
 

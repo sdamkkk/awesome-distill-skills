@@ -42,6 +42,7 @@ AI Skill / Prompt / Agent
 - [📚 Thinkers & Authors](#-thinkers--authors)
 - [🎭 Other Personas](#-other-personas)
 - [📋 Awesome Lists & Collections](#-awesome-lists--collections)
+- [📖 Case Studies](#-case-studies)
 - [📊 Methodology Comparison](#-methodology-comparison)
 - [🛠 Tools & Resources](#-tools--resources)
 - [🤝 Contributing](#-contributing)
@@ -181,6 +182,16 @@ Other curated lists in the persona distillation space:
 - **[tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills)** - Index of colleague/boss/ex/self/immortal/nuwa skills.
 - **[xixu-me/awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills)** - Curated list of Agent Skills centered on people, relationships, and methodological perspectives.
 - **[kou35/Awesome-social-skill](https://github.com/kou35/Awesome-social-skill)** - Collection of people and relationship AI Skills.
+
+---
+
+## 📖 Case Studies
+
+Real-world walkthroughs of distillation projects — including mistakes, lessons learned, and raw data.
+
+- **[Lei Jun (雷军) Distillation: A Full Process Walkthrough](case-studies/leijun-distillation.md)** — Step-by-step account of distilling Xiaomi founder Lei Jun's cognitive OS from ~950KB of speeches, interviews, and writings. Covers 10 search rounds, quality cleanup that cut 64% noise, 6-batch extraction producing 57 structured items, and the discovery of 3 contradiction/evolution patterns that static distillation methods miss. `in-progress` `Chinese`
+
+> 📝 Have a distillation case study to share? [Open a PR](CONTRIBUTING.md)!
 
 ---
 
