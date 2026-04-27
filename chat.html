@@ -350,13 +350,28 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+function stripMarkdown(s) {
+  return s
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/\*(.+?)\*/g, '$1')
+    .replace(/__(.+?)__/g, '$1')
+    .replace(/_(.+?)_/g, '$1')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/^[-*+]\s+/gm, '')
+    .replace(/^\d+\.\s+/gm, '')
+    .replace(/`(.+?)`/g, '$1')
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/^\s*>\s?/gm, '');
+}
+
 function addMessage(role, content, customEmoji) {
   var msgs = document.getElementById('chatMessages');
   var cls = role === 'user' ? 'user' : 'ai';
   var av = customEmoji || (role === 'user' ? '\ud83d\udc64' : (currentPersona ? currentPersona.emoji : '\ud83e\udd16'));
+  var displayContent = role === 'user' ? content : stripMarkdown(content);
   var div = document.createElement('div');
   div.className = 'msg ' + cls;
-  div.innerHTML = '<div class="avatar">' + av + '</div><div class="bubble">' + escapeHtml(content) + '</div>';
+  div.innerHTML = '<div class="avatar">' + av + '</div><div class="bubble">' + escapeHtml(displayContent) + '</div>';
   msgs.appendChild(div);
   msgs.scrollTop = msgs.scrollHeight;
 }
@@ -444,7 +459,7 @@ async function callApi(provider, apiKey, systemPrompt, history) {
     url = 'https://open.bigmodel.cn/api/paas/v4/chat/completions';
     headers = { 'Authorization': 'Bearer ' + apiKey, 'Content-Type': 'application/json' };
     body = {
-      model: 'glm-4-flash',
+      model: 'glm-4.7-flash',
       messages: [{ role: 'system', content: systemPrompt }].concat(history),
       temperature: 0.8,
       max_tokens: 4096
