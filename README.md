@@ -43,6 +43,7 @@ AI Skill / Prompt / Agent
 - [🎭 Other Personas](#-other-personas)
 - [📋 Awesome Lists & Collections](#-awesome-lists--collections)
 - [📖 Case Studies](#-case-studies)
+- [🌟 Featured Examples](#-featured-examples)
 - [📊 Methodology Comparison](#-methodology-comparison)
 - [🛠 Tools & Resources](#-tools--resources)
 - [🤝 Contributing](#-contributing)
@@ -130,9 +131,9 @@ Skills focused on distilling the thinking patterns of **business leaders and ent
   - Distilled personas: Jack Ma, Lei Jun, Richard Liu, Zhang Yiming, Ren Zhengfei, and more
   - Highlights: Multi-persona collection with consistent format. Each skill available in 3 languages.
 
-- 🚧 **[WIP] leijun-distill-skill** - Deep cognitive distillation of Lei Jun using multi-source corpus collection → batch refinement → structured knowledge cards → skill generation. `cognitive-framework` `Chinese`
+- ✅ **[leijun-distill-skill](examples/leijun/)** - Deep cognitive distillation of Lei Jun using multi-source corpus collection → batch refinement → structured knowledge cards → skill generation → validation. `cognitive-framework` `Chinese`
   - Distilled persona: Lei Jun (雷军)
-  - Highlights: Combines nuwa-skill methodology with transparent research process and evidence grading. Coming soon.
+  - Highlights: Combines nuwa-skill methodology with transparent research process and evidence grading. v1.1 System Prompt (458 lines, 30KB) + 57-entry knowledge card + validation report (8.4/10). **[Full case study →](case-studies/leijun-distillation.md)**
 
 ---
 
@@ -192,6 +193,16 @@ Real-world walkthroughs of distillation projects — including mistakes, lessons
 - **[Lei Jun (雷军) Distillation: A Full Process Walkthrough](case-studies/leijun-distillation.md)** — Step-by-step account of distilling Xiaomi founder Lei Jun's cognitive OS from ~950KB of speeches, interviews, and writings. Covers 10 search rounds, quality cleanup that cut 64% noise, 6-batch extraction producing 57 structured items, and the discovery of 3 contradiction/evolution patterns that static distillation methods miss. `in-progress` `Chinese`
 
 > 📝 Have a distillation case study to share? [Open a PR](CONTRIBUTING.md)!
+
+---
+
+## 🌟 Featured Examples
+
+Complete, runnable distillation outputs you can use directly.
+
+- **[Lei Jun (雷军) — Full Distillation Output](examples/leijun/)** — Complete 4-step distillation of Xiaomi founder Lei Jun's cognitive OS. Includes System Prompt v1.1 (458 lines, 30KB), 57-entry knowledge card, and validation report (scored 8.4/10). Copy `leijun-skill.md` into any LLM's System Prompt to get started. `cognitive-framework` `Chinese` `v1.1`
+
+> 📦 Want to contribute an example? Include the final Skill file + knowledge card + validation report. [Open a PR](CONTRIBUTING.md)!
 
 ---
 
