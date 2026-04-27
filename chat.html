@@ -127,6 +127,9 @@ input, select, textarea { font-family: inherit; }
       <div style="display:flex;align-items:center;gap:8px;">
         <button class="toggle-sidebar" onclick="toggleSidebar()">☰</button>
         <span class="header-title">Awesome Distill Skills — 人格对话广场 <span class="badge">Powered by awesome-distill-skills</span></span>
+        <a href="https://github.com/alchaincyf" target="_blank" title="人格 Skill 原作者：花叔 (alchaincyf)" style="margin-left:8px;color:var(--text-dim);font-size:18px;vertical-align:middle;text-decoration:none;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-dim)'">
+          <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:middle;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
       </div>
     </div>
     <div class="api-config">
@@ -185,91 +188,91 @@ const PERSONAS = [
     id: 'jobs', emoji: '🍎', name: '乔布斯', nameEn: 'Steve Jobs',
     desc: 'Stay hungry, stay foolish', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/steve-jobs-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/steve-jobs-skill/main/SKILL.md',
+    url: 'skills/steve-jobs-skill/SKILL.md',
     questions: ['你的产品设计哲学是什么？', '被苹果开除那段经历学到了什么？', '怎么做产品减法？', '如何定义"伟大的产品"？']
   },
   {
     id: 'musk', emoji: '🚀', name: '马斯克', nameEn: 'Elon Musk',
     desc: '第一性原理思维', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/elon-musk-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/elon-musk-skill/main/SKILL.md',
+    url: 'skills/elon-musk-skill/SKILL.md',
     questions: ['什么是第一性原理？', '火星殖民计划进展如何？', '怎么同时管理多家公司？', '对 AI 发展有什么看法？']
   },
   {
     id: 'munger', emoji: '📊', name: '芒格', nameEn: 'Charlie Munger',
     desc: '多元思维模型', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/munger-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/munger-skill/main/SKILL.md',
+    url: 'skills/munger-skill/SKILL.md',
     questions: ['什么是多元思维模型？', '你的投资原则是什么？', '怎么避免犯愚蠢的错误？', '对年轻投资者的建议？']
   },
   {
     id: 'feynman', emoji: '🔬', name: '费曼', nameEn: 'Richard Feynman',
     desc: '如果你不能简单解释，你就没真正理解', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/feynman-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/feynman-skill/main/SKILL.md',
+    url: 'skills/feynman-skill/SKILL.md',
     questions: ['怎么学东西最快？', '量子力学怎么用大白话解释？', '如何保持好奇心？', '费曼学习法是什么？']
   },
   {
     id: 'naval', emoji: '🧘', name: '纳瓦尔', nameEn: 'Naval Ravikant',
     desc: '财富、幸福与杠杆', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/naval-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/naval-skill/main/SKILL.md',
+    url: 'skills/naval-skill/SKILL.md',
     questions: ['如何不靠运气获得财富？', '什么是杠杆？', '怎么获得幸福？', '对创业者最重要的建议？']
   },
   {
     id: 'zhangyiming', emoji: '💡', name: '张一鸣', nameEn: 'Zhang Yiming',
     desc: '延迟满足 + 算法驱动', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/zhang-yiming-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/zhang-yiming-skill/main/SKILL.md',
+    url: 'skills/zhang-yiming-skill/SKILL.md',
     questions: ['什么是延迟满足？', '算法推荐的核心逻辑是什么？', '怎么看全球化？', '字节跳动成功的关键？']
   },
   {
     id: 'zhangxuefeng', emoji: '🎓', name: '张雪峰', nameEn: 'Zhang Xuefeng',
     desc: '高考志愿实战派', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/zhangxuefeng-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/zhangxuefeng-skill/main/SKILL.md',
+    url: 'skills/zhangxuefeng-skill/SKILL.md',
     questions: ['怎么选专业最靠谱？', '考研到底值不值？', '普通家庭的孩子怎么选？', '哪些专业不建议报？']
   },
   {
     id: 'paulgraham', emoji: '✍️', name: 'Paul Graham', nameEn: 'Paul Graham',
     desc: '做不可规模化的事', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/paul-graham-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/paul-graham-skill/main/SKILL.md',
+    url: 'skills/paul-graham-skill/SKILL.md',
     questions: ['什么是"做不可规模化的事"？', '怎么判断一个创业想法好不好？', 'YC 最看重创业者什么品质？', '写作对思考有什么帮助？']
   },
   {
     id: 'karpathy', emoji: '🤖', name: 'Andrej Karpathy', nameEn: 'Andrej Karpathy',
     desc: 'AI 研究 + 教育', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/karpathy-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/karpathy-skill/main/SKILL.md',
+    url: 'skills/karpathy-skill/SKILL.md',
     questions: ['学 AI 怎么入门最高效？', '大模型的未来在哪里？', '自动驾驶现在到什么阶段了？', 'Transformer 为什么这么成功？']
   },
   {
     id: 'ilya', emoji: '🧠', name: 'Ilya Sutskever', nameEn: 'Ilya Sutskever',
     desc: 'AI 安全 + 超级智能', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/ilya-sutskever-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/ilya-sutskever-skill/main/SKILL.md',
+    url: 'skills/ilya-sutskever-skill/SKILL.md',
     questions: ['超级智能什么时候会到来？', 'AI 安全最大的挑战是什么？', '深度学习还有多大潜力？', '为什么离开了 OpenAI？']
   },
   {
     id: 'mrbeast', emoji: '🎬', name: 'MrBeast', nameEn: 'MrBeast',
     desc: 'YouTube 增长之王', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/mrbeast-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/mrbeast-skill/main/SKILL.md',
+    url: 'skills/mrbeast-skill/SKILL.md',
     questions: ['怎么做出爆款视频？', 'YouTube 算法的核心是什么？', '你的内容创作方法论？', '怎么从零开始做 YouTube？']
   },
   {
     id: 'trump', emoji: '🏛️', name: '特朗普', nameEn: 'Donald Trump',
     desc: '交易的艺术', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/trump-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/trump-skill/main/SKILL.md',
+    url: 'skills/trump-skill/SKILL.md',
     questions: ['什么是交易的艺术？', '怎么在谈判中占据优势？', '如何打造个人品牌？', '你对成功的定义是什么？']
   },
   {
     id: 'taleb', emoji: '📚', name: '塔勒布', nameEn: 'Nassim Taleb',
     desc: '反脆弱 + 黑天鹅', tag: '远程', isRemote: true,
     repo: 'https://github.com/alchaincyf/taleb-skill',
-    url: 'https://raw.githubusercontent.com/alchaincyf/taleb-skill/main/SKILL.md',
+    url: 'skills/taleb-skill/SKILL.md',
     questions: ['什么是反脆弱？', '怎么应对黑天鹅事件？', '为什么不应该预测未来？', '杠铃策略怎么用？']
   }
 ];
